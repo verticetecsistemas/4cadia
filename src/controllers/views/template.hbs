@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en">
+<!--<![endif]-->
+<head>
+	<meta charset="utf-8" />
+	<script src="../emailController.js"></script>
+
+
+</head>
+<body style="text-align: center; height: 100%;">
+
+
+        <h2>Olá, <strong>{{ nome }}</strong></h2>
+        <h3>Este e-mail é a resposta da sua solicitação para redefinição de senha.</h3> 
+        <p>Clique no <strong>botão</strong> abaixo para realizar a alteração de sua senha.</p>
+        <a type="submit" href="{{ url }}" id="btn"
+              style="border: solid; border-radius: 10px; 
+              border-color: #FF4500 ; color: #FFF; 
+              background-color: #FF4500; width: 120px; height: 50px; 
+              text-align: center; text-decoration: none; font-size: 15px; cursor: pointer;
+              padding-top: 2px; padding-left: 20px; padding-bottom: 3px; padding-right: 20px;">
+                Redefinir</a>
+      
+
+</body>
+</html>
+
